@@ -30,13 +30,13 @@ namespace DSharpPlus.Entities
 {
     public sealed class DiscordCaptchaRequest
     {
-        public const string RECAPTCHA_SITEKEY = "6Lef5iQTAAAAAKeIvIY-DeexoO3gj7ryl9rLMEnn";
+        public const string RECAPTCHA_SITEKEY = "";
 
         [JsonProperty("captcha_key", NullValueHandling = NullValueHandling.Ignore)]
         public string[] Key { get; internal set; }
 
         [JsonProperty("captcha_sitekey", NullValueHandling = NullValueHandling.Ignore)]
-        public string SiteKey { get; internal set; } = "c5fa4a68-7566-4cba-b588-dc66e9d886bc";
+        public string SiteKey { get; internal set; } = "";
 
         [JsonProperty("captcha_service", NullValueHandling = NullValueHandling.Ignore)]
         public string Service { get; internal set; }
